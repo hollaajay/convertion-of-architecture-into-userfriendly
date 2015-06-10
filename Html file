@@ -1,0 +1,10 @@
+<div class= "buttons">
+    <button id="Reset" type="submit" value="Submit" onclick="Reset()" />ALL</button>
+	<button id="blue" type="submit" value="Submit" onclick="PjMECU()"/>PjM ECU</button>
+	<button id="blue" type="submit" value="Submit" onclick="SPjMSW()"/>SPjM SW</button>
+	<button  id="blue" type="submit" value="Submit" onclick="SWSD()"/>SW SD</button>
+	<button id="blue" type="submit" value="Submit" onclick="SWPD()"/>SW PD</button>
+	<button id="green" type="submit" value="Submit" onclick="FND()"/>FN-D</button>
+	<button id="green" type="submit" value="Submit" onclick="SWD()"/>SW-D</button>
+	<button id="green" type="submit" value="Submit" onclick="PRes()"/>P-Res</button>
+<div id="container"></div>
