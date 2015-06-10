@@ -1,0 +1,1933 @@
+var stage = new Kinetic.Stage({  //creation of kinetic stage
+    container: 'container',
+    x: 10,
+    y: 10,
+    width: 1100,
+    height: 800,
+});
+var layer = new Kinetic.Layer(); // addition of layer 
+
+
+// the active partation rectangle ( outerRectangle)
+
+var rectangle6115 = new Kinetic.Rect({	
+x : 442,	
+y : 450,	
+width : 105,	
+height : 244,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle6115);	
+var rectangle6115line = new Kinetic.Line({	
+points : [442,470,547,470],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle6115line);	
+var rectangle6115text = new Kinetic.Text({	
+x : 442,	
+y : 450+1,	
+width : 105,	
+height : 244,	
+text :  'Prototyping',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6115text);	
+var rectangle5522 = new Kinetic.Rect({	
+x : 800,	
+y : 1,	
+width : 180,	
+height : 160,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle5522);	
+var rectangle5522line = new Kinetic.Line({	
+points : [800,21,980,21],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle5522line);	
+var rectangle5522text = new Kinetic.Text({	
+x : 800,	
+y : 1+1,	
+width : 180,	
+height : 160,	
+text :  'IT Infrastructure',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5522text);	
+var rectangle2967 = new Kinetic.Rect({	
+x : 274,	
+y : 450,	
+width : 168,	
+height : 244,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle2967);	
+var rectangle2967line = new Kinetic.Line({	
+points : [274,470,442,470],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle2967line);	
+var rectangle2967text = new Kinetic.Text({	
+x : 274,	
+y : 450+1,	
+width : 168,	
+height : 244,	
+text :  'Testing',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle2967text);	
+var rectangle52 = new Kinetic.Rect({	
+x : 547,	
+y : 450,	
+width : 183,	
+height : 244,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle52);	
+var rectangle52line = new Kinetic.Line({	
+points : [547,470,730,470],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle52line);	
+var rectangle52text = new Kinetic.Text({	
+x : 547,	
+y : 450+1,	
+width : 183,	
+height : 244,	
+text :  'Engineering Data',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle52text);	
+var rectangle65 = new Kinetic.Rect({	
+x : 3,	
+y : 450,	
+width : 271,	
+height : 244,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle65);	
+var rectangle65line = new Kinetic.Line({	
+points : [3,470,274,470],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle65line);	
+var rectangle65text = new Kinetic.Text({	
+x : 3,	
+y : 450+1,	
+width : 271,	
+height : 244,	
+text :  'Model Development',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle65text);	
+var rectangle50 = new Kinetic.Rect({	
+x : 3,	
+y : 1,	
+width : 797,	
+height : 160,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle50);	
+var rectangle50line = new Kinetic.Line({	
+points : [3,21,800,21],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle50line);	
+var rectangle50text = new Kinetic.Text({	
+x : 3,	
+y : 1+1,	
+width : 797,	
+height : 160,	
+text :  'Management & Support',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle50text);	
+var rectangle51 = new Kinetic.Rect({	
+x : 3,	
+y : 164,	
+width : 977,	
+height : 284,	
+strokeWidth : 2 ,	
+stroke : 'Black',});	
+layer.add(rectangle51);	
+var rectangle51line = new Kinetic.Line({	
+points : [3,184,980,184],	
+stroke : 'black' ,	
+strokeWidth : 2 ,	
+tension : 0 ,	
+linecap : 'round',});	
+layer.add(rectangle51line);	
+var rectangle51text = new Kinetic.Text({	
+x : 3,	
+y : 164+1,	
+width : 977,	
+height : 284,	
+text :  'SW Engineering',	
+fontSize : 15 ,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle51text);	
+
+// end of outerrectangle 
+
+// the component rectangle
+var rectangle6318 = new Kinetic.Rect({	
+x : 457,	
+y : 545,	
+width : 74,	
+height : 48,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6318);	
+var rectangle6318text = new Kinetic.Text({	
+x : 457,	
+y : 545+2,	
+width : 74,	
+height : 48,	
+text :  'INTECRIO',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6318text);	
+var rectangle6317 = new Kinetic.Rect({	
+x : 863,	
+y : 90,	
+width : 53,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6317);	
+var rectangle6317text = new Kinetic.Text({	
+x : 863,	
+y : 90+2,	
+width : 53,	
+height : 46,	
+text :  'iCheck',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6317text);	
+var rectangle6316 = new Kinetic.Rect({	
+x : 366,	
+y : 632,	
+width : 72,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6316);	
+var rectangle6316text = new Kinetic.Text({	
+x : 366,	
+y : 632+2,	
+width : 72,	
+height : 47,	
+text :  'ECU-Test',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6316text);	
+var rectangle6315 = new Kinetic.Rect({	
+x : 685,	
+y : 32,	
+width : 54,	
+height : 106,	
+fill :  '#E9E9FF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6315);	
+var rectangle6315text = new Kinetic.Text({	
+x : 685,	
+y : 32+2,	
+width : 54,	
+height : 106,	
+text :  'PROMISE',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6315text);	
+var rectangle6302 = new Kinetic.Rect({	
+x : 743,	
+y : 91,	
+width : 54,	
+height : 46,	
+fill :  '#E9E9FF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6302);	
+var rectangle6302text = new Kinetic.Text({	
+x : 743,	
+y : 91+2,	
+width : 54,	
+height : 46,	
+text :  'Prime',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6302text);	
+var rectangle6300 = new Kinetic.Rect({	
+x : 742,	
+y : 32,	
+width : 54,	
+height : 47,	
+fill :  '#E9E9FF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6300);	
+var rectangle6300text = new Kinetic.Text({	
+x : 742,	
+y : 32+2,	
+width : 54,	
+height : 47,	
+text :  'RADAR',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6300text);	
+var rectangle6118 = new Kinetic.Rect({	
+x : 634,	
+y : 603,	
+width : 69,	
+height : 58,	
+fill :  '#FDD017 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6118);	
+var rectangle6118text = new Kinetic.Text({	
+x : 634,	
+y : 603+2,	
+width : 69,	
+height : 58,	
+text :  'Review Tool',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6118text);	
+var rectangle6117 = new Kinetic.Rect({	
+x : 632,	
+y : 395,	
+width : 65,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6117);	
+var rectangle6117text = new Kinetic.Text({	
+x : 632,	
+y : 395+2,	
+width : 65,	
+height : 46,	
+text :  'Beyond Compare',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6117text);	
+var rectangle6116 = new Kinetic.Rect({	
+x : 456,	
+y : 480,	
+width : 73,	
+height : 53,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6116);	
+var rectangle6116text = new Kinetic.Text({	
+x : 456,	
+y : 480+2,	
+width : 73,	
+height : 53,	
+text :  'EHOOKS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6116text);	
+var rectangle6106 = new Kinetic.Rect({	
+x : 632,	
+y : 344,	
+width : 64,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle6106);	
+var rectangle6106text = new Kinetic.Text({	
+x : 632,	
+y : 344+2,	
+width : 64,	
+height : 46,	
+text :  'FCFinder',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6106text);	
+var rectangle6098 = new Kinetic.Rect({	
+x : 366,	
+y : 541,	
+width : 71,	
+height : 54,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6098);	
+var rectangle6098text = new Kinetic.Text({	
+x : 366,	
+y : 541+2,	
+width : 71,	
+height : 54,	
+text :  'UDE Debugger',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6098text);	
+var rectangle6094 = new Kinetic.Rect({	
+x : 203,	
+y : 479,	
+width : 64,	
+height : 110,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6094);	
+var rectangle6094text = new Kinetic.Text({	
+x : 203,	
+y : 479+2,	
+width : 64,	
+height : 110,	
+text :  'XDI Tools',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6094text);	
+var rectangle6093 = new Kinetic.Rect({	
+x : 806,	
+y : 90,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6093);	
+var rectangle6093text = new Kinetic.Text({	
+x : 806,	
+y : 90+2,	
+width : 54,	
+height : 46,	
+text :  'Toolbase',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6093text);	
+var rectangle5909 = new Kinetic.Rect({	
+x : 630,	
+y : 243,	
+width : 66,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5909);	
+var rectangle5909text = new Kinetic.Text({	
+x : 630,	
+y : 243+2,	
+width : 66,	
+height : 46,	
+text :  'ADD',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5909text);	
+var rectangle5780 = new Kinetic.Rect({	
+x : 835,	
+y : 394,	
+width : 71,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5780);	
+var rectangle5780text = new Kinetic.Text({	
+x : 835,	
+y : 394+2,	
+width : 71,	
+height : 46,	
+text :  'ECA',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5780text);	
+var rectangle5753 = new Kinetic.Rect({	
+x : 557,	
+y : 33,	
+width : 54,	
+height : 51,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5753);	
+var rectangle5753text = new Kinetic.Text({	
+x : 557,	
+y : 33+2,	
+width : 54,	
+height : 51,	
+text :  'IQ-RM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5753text);	
+var rectangle3268 = new Kinetic.Rect({	
+x : 12,	
+y : 190,	
+width : 53,	
+height : 91,	
+fill :  '#FDD017 ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle3268);	
+var rectangle3268text = new Kinetic.Text({	
+x : 12,	
+y : 190+2,	
+width : 53,	
+height : 91,	
+text :  'DOORS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle3268text);	
+var rectangle5719 = new Kinetic.Rect({	
+x : 13,	
+y : 30,	
+width : 64,	
+height : 128,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5719);	
+var rectangle5719text = new Kinetic.Text({	
+x : 13,	
+y : 30+2,	
+width : 64,	
+height : 128,	
+text :  'GS-IS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5719text);	
+var rectangle5703 = new Kinetic.Rect({	
+x : 408,	
+y : 29,	
+width : 54,	
+height : 58,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5703);	
+var rectangle5703text = new Kinetic.Text({	
+x : 408,	
+y : 29+2,	
+width : 54,	
+height : 58,	
+text :  'BIRT- Reporting Server',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5703text);	
+var rectangle5683 = new Kinetic.Rect({	
+x : 552,	
+y : 398,	
+width : 68,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5683);	
+var rectangle5683text = new Kinetic.Text({	
+x : 552,	
+y : 398+2,	
+width : 68,	
+height : 46,	
+text :  'CheckSSD',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5683text);	
+var rectangle5682 = new Kinetic.Rect({	
+x : 552,	
+y : 347,	
+width : 66,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5682);	
+var rectangle5682text = new Kinetic.Text({	
+x : 552,	
+y : 347+2,	
+width : 66,	
+height : 46,	
+text :  'SSD',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5682text);	
+var rectangle5658 = new Kinetic.Rect({	
+x : 478,	
+y : 347,	
+width : 67,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5658);	
+var rectangle5658text = new Kinetic.Text({	
+x : 478,	
+y : 347+2,	
+width : 67,	
+height : 46,	
+text :  'RTA-RTE',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5658text);	
+var rectangle5649 = new Kinetic.Rect({	
+x : 861,	
+y : 27,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5649);	
+var rectangle5649text = new Kinetic.Text({	
+x : 861,	
+y : 27+2,	
+width : 54,	
+height : 46,	
+text :  'WTS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5649text);	
+var rectangle5648 = new Kinetic.Rect({	
+x : 804,	
+y : 27,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5648);	
+var rectangle5648text = new Kinetic.Text({	
+x : 804,	
+y : 27+2,	
+width : 54,	
+height : 46,	
+text :  'VDI',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5648text);	
+var rectangle5642 = new Kinetic.Rect({	
+x : 344,	
+y : 28,	
+width : 54,	
+height : 123,	
+fill :  '#FDD017 ' ,	
+strokeWidth :  2,	
+stroke : '#0 ',});	
+layer.add(rectangle5642);	
+var rectangle5642text = new Kinetic.Text({	
+x : 344,	
+y : 28+2,	
+width : 54,	
+height : 123,	
+text :  'RQ1 Planning Tool',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5642text);	
+var rectangle5640 = new Kinetic.Rect({	
+x : 364,	
+y : 478,	
+width : 73,	
+height : 53,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5640);	
+var rectangle5640text = new Kinetic.Text({	
+x : 364,	
+y : 478+2,	
+width : 73,	
+height : 53,	
+text :  'INCA',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5640text);	
+var rectangle5633 = new Kinetic.Rect({	
+x : 479,	
+y : 193,	
+width : 142,	
+height : 147,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle5633);	
+var rectangle5633text = new Kinetic.Text({	
+x : 479,	
+y : 193+2,	
+width : 142,	
+height : 147,	
+text :  'SW Build',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5633text);	
+var rectangle5632 = new Kinetic.Rect({	
+x : 632,	
+y : 293,	
+width : 65,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5632);	
+var rectangle5632text = new Kinetic.Text({	
+x : 632,	
+y : 293+2,	
+width : 65,	
+height : 46,	
+text :  'CChecker',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5632text);	
+var rectangle5631 = new Kinetic.Rect({	
+x : 630,	
+y : 189,	
+width : 67,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5631);	
+var rectangle5631text = new Kinetic.Text({	
+x : 630,	
+y : 189+2,	
+width : 67,	
+height : 46,	
+text :  'eHandbook Generator',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5631text);	
+var rectangle5625 = new Kinetic.Rect({	
+x : 558,	
+y : 96,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5625);	
+var rectangle5625text = new Kinetic.Text({	
+x : 558,	
+y : 96+2,	
+width : 54,	
+height : 46,	
+text :  'DRBFM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5625text);	
+var rectangle5583 = new Kinetic.Rect({	
+x : 706,	
+y : 191,	
+width : 122,	
+height : 248,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5583);	
+var rectangle5583text = new Kinetic.Text({	
+x : 706,	
+y : 191+2,	
+width : 122,	
+height : 248,	
+text :  'ECU Resource Tool Chain',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5583text);	
+var rectangle5537 = new Kinetic.Rect({	
+x : 283,	
+y : 477,	
+width : 71,	
+height : 205,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0 ',});	
+layer.add(rectangle5537);	
+var rectangle5537text = new Kinetic.Text({	
+x : 283,	
+y : 477+2,	
+width : 71,	
+height : 205,	
+text :  'Test Tool Chain',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5537text);	
+var rectangle5521 = new Kinetic.Rect({	
+x : 148,	
+y : 33,	
+width : 62,	
+height : 120,	
+fill :  '#FDD017 ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5521);	
+var rectangle5521text = new Kinetic.Text({	
+x : 148,	
+y : 33+2,	
+width : 62,	
+height : 120,	
+text :  'iGPK',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5521text);	
+var rectangle5483 = new Kinetic.Rect({	
+x : 216,	
+y : 190,	
+width : 246,	
+height : 248,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5483);	
+var rectangle5483text = new Kinetic.Text({	
+x : 216,	
+y : 190+2,	
+width : 246,	
+height : 248,	
+text :  'ECU.WorX',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5483text);	
+var rectangle5202 = new Kinetic.Rect({	
+x : 833,	
+y : 191,	
+width : 142,	
+height : 198,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5202);	
+var rectangle5202text = new Kinetic.Text({	
+x : 833,	
+y : 191+2,	
+width : 142,	
+height : 198,	
+text :  'PDT Product Delivery Tools',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5202text);	
+var rectangle3607 = new Kinetic.Rect({	
+x : 621,	
+y : 33,	
+width : 54,	
+height : 108,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle3607);	
+var rectangle3607text = new Kinetic.Text({	
+x : 621,	
+y : 33+2,	
+width : 54,	
+height : 108,	
+text :  'ILM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle3607text);	
+var rectangle2789 = new Kinetic.Rect({	
+x : 219,	
+y : 29,	
+width : 116,	
+height : 120,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle2789);	
+var rectangle2789text = new Kinetic.Text({	
+x : 219,	
+y : 29+2,	
+width : 116,	
+height : 120,	
+text :  'Request One',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle2789text);	
+var rectangle77 = new Kinetic.Rect({	
+x : 86,	
+y : 99,	
+width : 54,	
+height : 49,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle77);	
+var rectangle77text = new Kinetic.Text({	
+x : 86,	
+y : 99+2,	
+width : 54,	
+height : 49,	
+text :  'Phoenix',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle77text);	
+var rectangle1692 = new Kinetic.Rect({	
+x : 631,	
+y : 478,	
+width : 72,	
+height : 113,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle1692);	
+var rectangle1692text = new Kinetic.Text({	
+x : 631,	
+y : 478+2,	
+width : 72,	
+height : 113,	
+text :  'Provisor 2',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle1692text);	
+var rectangle145 = new Kinetic.Rect({	
+x : 558,	
+y : 605,	
+width : 65,	
+height : 55,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle145);	
+var rectangle145text = new Kinetic.Text({	
+x : 558,	
+y : 605+2,	
+width : 65,	
+height : 55,	
+text :  'Review DB',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle145text);	
+var rectangle409 = new Kinetic.Rect({	
+x : 107,	
+y : 478,	
+width : 85,	
+height : 109,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle409);	
+var rectangle409text = new Kinetic.Text({	
+x : 107,	
+y : 478+2,	
+width : 85,	
+height : 109,	
+text :  'Matlab Simulink',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle409text);	
+var rectangle108 = new Kinetic.Rect({	
+x : 16,	
+y : 479,	
+width : 81,	
+height : 108,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle108);	
+var rectangle108text = new Kinetic.Text({	
+x : 16,	
+y : 479+2,	
+width : 81,	
+height : 108,	
+text :  'ASCET',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle108text);	
+var rectangle94 = new Kinetic.Rect({	
+x : 556,	
+y : 477,	
+width : 67,	
+height : 119,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle94);	
+var rectangle94text = new Kinetic.Text({	
+x : 556,	
+y : 477+2,	
+width : 67,	
+height : 119,	
+text :  'PIDC',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle94text);	
+var rectangle87 = new Kinetic.Rect({	
+x : 74,	
+y : 190,	
+width : 134,	
+height : 248,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle87);	
+var rectangle87text = new Kinetic.Text({	
+x : 74,	
+y : 190+2,	
+width : 134,	
+height : 248,	
+text :  'SDOM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle87text);	
+
+
+//partof has to be copied here
+var rectangle6321 = new Kinetic.Rect({	
+x : 905,	
+y : 290,	
+width : 63,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle6321);	
+var rectangle6321text = new Kinetic.Text({	
+x : 905,	
+y : 290+2,	
+width : 63,	
+height : 46,	
+text :  'D2C',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6321text);	
+var rectangle6320 = new Kinetic.Rect({	
+x : 904,	
+y : 234,	
+width : 61,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle6320);	
+var rectangle6320text = new Kinetic.Text({	
+x : 904,	
+y : 234+2,	
+width : 61,	
+height : 47,	
+text :  'webFLOW',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6320text);	
+var rectangle6125 = new Kinetic.Rect({	
+x : 12,	
+y : 226,	
+width : 53,	
+height : 58,	
+fill :  '#FDD017 ' ,	
+strokeWidth :  2,	
+stroke : '#0 ',});	
+layer.add(rectangle6125);	
+var rectangle6125text = new Kinetic.Text({	
+x : 12,	
+y : 226+2,	
+width : 53,	
+height : 58,	
+text :  'Sodius Branch Manager',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6125text);	
+var rectangle5916 = new Kinetic.Rect({	
+x : 836,	
+y : 339,	
+width : 58,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5916);	
+var rectangle5916text = new Kinetic.Text({	
+x : 836,	
+y : 339+2,	
+width : 58,	
+height : 46,	
+text :  'Duke',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5916text);	
+var rectangle6122 = new Kinetic.Rect({	
+x : 80,	
+y : 295,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6122);	
+var rectangle6122text = new Kinetic.Text({	
+x : 80,	
+y : 295+2,	
+width : 54,	
+height : 46,	
+text :  'Meta Data',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6122text);	
+var rectangle6121 = new Kinetic.Rect({	
+x : 143,	
+y : 234,	
+width : 62,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle6121);	
+var rectangle6121text = new Kinetic.Text({	
+x : 143,	
+y : 234+2,	
+width : 62,	
+height : 46,	
+text :  'SW-Reference Architecture',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6121text);	
+var rectangle6105 = new Kinetic.Rect({	
+x : 767,	
+y : 349,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle6105);	
+var rectangle6105text = new Kinetic.Text({	
+x : 767,	
+y : 349+2,	
+width : 54,	
+height : 46,	
+text :  'SMART',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6105text);	
+var rectangle6104 = new Kinetic.Rect({	
+x : 768,	
+y : 295,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle6104);	
+var rectangle6104text = new Kinetic.Text({	
+x : 768,	
+y : 295+2,	
+width : 54,	
+height : 46,	
+text :  'RTMTool',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6104text);	
+var rectangle6103 = new Kinetic.Rect({	
+x : 768,	
+y : 239,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#B8B800 ',});	
+layer.add(rectangle6103);	
+var rectangle6103text = new Kinetic.Text({	
+x : 768,	
+y : 239+2,	
+width : 54,	
+height : 46,	
+text :  'WinRTM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6103text);	
+var rectangle6102 = new Kinetic.Rect({	
+x : 710,	
+y : 294,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#B8B800 ',});	
+layer.add(rectangle6102);	
+var rectangle6102text = new Kinetic.Text({	
+x : 710,	
+y : 294+2,	
+width : 54,	
+height : 46,	
+text :  'JRESANA',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6102text);	
+var rectangle6101 = new Kinetic.Rect({	
+x : 709,	
+y : 239,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#B8B800 ',});	
+layer.add(rectangle6101);	
+var rectangle6101text = new Kinetic.Text({	
+x : 709,	
+y : 239+2,	
+width : 54,	
+height : 46,	
+text :  'MARS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6101text);	
+var rectangle6100 = new Kinetic.Rect({	
+x : 552,	
+y : 287,	
+width : 62,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle6100);	
+var rectangle6100text = new Kinetic.Text({	
+x : 552,	
+y : 287+2,	
+width : 62,	
+height : 46,	
+text :  'MDG1C Shared Build',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6100text);	
+var rectangle6099 = new Kinetic.Rect({	
+x : 219,	
+y : 386,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6099);	
+var rectangle6099text = new Kinetic.Text({	
+x : 219,	
+y : 386+2,	
+width : 54,	
+height : 46,	
+text :  'LWM',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6099text);	
+var rectangle6097 = new Kinetic.Rect({	
+x : 287,	
+y : 628,	
+width : 53,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6097);	
+var rectangle6097text = new Kinetic.Text({	
+x : 287,	
+y : 628+2,	
+width : 53,	
+height : 46,	
+text :  'STEPaGe',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6097text);	
+var rectangle6096 = new Kinetic.Rect({	
+x : 286,	
+y : 577,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6096);	
+var rectangle6096text = new Kinetic.Text({	
+x : 286,	
+y : 577+2,	
+width : 54,	
+height : 46,	
+text :  'ECCo',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6096text);	
+var rectangle6095 = new Kinetic.Rect({	
+x : 286,	
+y : 526,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6095);	
+var rectangle6095text = new Kinetic.Text({	
+x : 286,	
+y : 526+2,	
+width : 54,	
+height : 46,	
+text :  'TPT',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6095text);	
+var rectangle6092 = new Kinetic.Rect({	
+x : 404,	
+y : 230,	
+width : 54,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000B8 ',});	
+layer.add(rectangle6092);	
+var rectangle6092text = new Kinetic.Text({	
+x : 404,	
+y : 230+2,	
+width : 54,	
+height : 47,	
+text :  'BFW',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6092text);	
+var rectangle6091 = new Kinetic.Rect({	
+x : 343,	
+y : 387,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle6091);	
+var rectangle6091text = new Kinetic.Text({	
+x : 343,	
+y : 387+2,	
+width : 54,	
+height : 46,	
+text :  'SMC',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6091text);	
+var rectangle6090 = new Kinetic.Rect({	
+x : 342,	
+y : 335,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle6090);	
+var rectangle6090text = new Kinetic.Text({	
+x : 342,	
+y : 335+2,	
+width : 54,	
+height : 46,	
+text :  'CalPar Suite',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle6090text);	
+var rectangle5915 = new Kinetic.Rect({	
+x : 836,	
+y : 287,	
+width : 58,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5915);	
+var rectangle5915text = new Kinetic.Text({	
+x : 836,	
+y : 287+2,	
+width : 58,	
+height : 46,	
+text :  'FSW-Creator',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5915text);	
+var rectangle5914 = new Kinetic.Rect({	
+x : 836,	
+y : 234,	
+width : 58,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5914);	
+var rectangle5914text = new Kinetic.Text({	
+x : 836,	
+y : 234+2,	
+width : 58,	
+height : 47,	
+text :  'FLOW5-PDT',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5914text);	
+var rectangle5849 = new Kinetic.Rect({	
+x : 342,	
+y : 283,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5849);	
+var rectangle5849text = new Kinetic.Text({	
+x : 342,	
+y : 283+2,	
+width : 54,	
+height : 46,	
+text :  'SW Analyser',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5849text);	
+var rectangle5720 = new Kinetic.Rect({	
+x : 17,	
+y : 110,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5720);	
+var rectangle5720text = new Kinetic.Text({	
+x : 17,	
+y : 110+2,	
+width : 54,	
+height : 46,	
+text :  'FMEA',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5720text);	
+var rectangle1862 = new Kinetic.Rect({	
+x : 17,	
+y : 62,	
+width : 54,	
+height : 50,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle1862);	
+var rectangle1862text = new Kinetic.Text({	
+x : 17,	
+y : 62+2,	
+width : 54,	
+height : 50,	
+text :  'Promics',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle1862text);	
+var rectangle5657 = new Kinetic.Rect({	
+x : 280,	
+y : 334,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5657);	
+var rectangle5657text = new Kinetic.Text({	
+x : 280,	
+y : 334+2,	
+width : 54,	
+height : 46,	
+text :  'BAC',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5657text);	
+var rectangle5656 = new Kinetic.Rect({	
+x : 485,	
+y : 288,	
+width : 58,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#0000FF ',});	
+layer.add(rectangle5656);	
+var rectangle5656text = new Kinetic.Text({	
+x : 485,	
+y : 288+2,	
+width : 58,	
+height : 46,	
+text :  'MDG1C SW Build',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5656text);	
+var rectangle5655 = new Kinetic.Rect({	
+x : 552,	
+y : 230,	
+width : 62,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#B8B800 ',});	
+layer.add(rectangle5655);	
+var rectangle5655text = new Kinetic.Text({	
+x : 552,	
+y : 230+2,	
+width : 62,	
+height : 47,	
+text :  'DGS Shared Build',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5655text);	
+var rectangle5653 = new Kinetic.Rect({	
+x : 485,	
+y : 232,	
+width : 58,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#B8B800 ',});	
+layer.add(rectangle5653);	
+var rectangle5653text = new Kinetic.Text({	
+x : 485,	
+y : 232+2,	
+width : 58,	
+height : 46,	
+text :  'DGS Build',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5653text);	
+var rectangle5647 = new Kinetic.Rect({	
+x : 280,	
+y : 282,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5647);	
+var rectangle5647text = new Kinetic.Text({	
+x : 280,	
+y : 282+2,	
+width : 54,	
+height : 46,	
+text :  'L-Adapter',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5647text);	
+var rectangle5643 = new Kinetic.Rect({	
+x : 278,	
+y : 230,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5643);	
+var rectangle5643text = new Kinetic.Text({	
+x : 278,	
+y : 230+2,	
+width : 54,	
+height : 46,	
+text :  'ISOLAR-A (AAT)',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5643text);	
+var rectangle5639 = new Kinetic.Rect({	
+x : 281,	
+y : 387,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5639);	
+var rectangle5639text = new Kinetic.Text({	
+x : 281,	
+y : 387+2,	
+width : 54,	
+height : 46,	
+text :  'AXE',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5639text);	
+var rectangle5635 = new Kinetic.Rect({	
+x : 219,	
+y : 334,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle5635);	
+var rectangle5635text = new Kinetic.Text({	
+x : 219,	
+y : 334+2,	
+width : 54,	
+height : 46,	
+text :  'BCT',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5635text);	
+var rectangle5582 = new Kinetic.Rect({	
+x : 639,	
+y : 538,	
+width : 54,	
+height : 46,	
+fill :  '#FFEF99 ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle5582);	
+var rectangle5582text = new Kinetic.Text({	
+x : 639,	
+y : 538+2,	
+width : 54,	
+height : 46,	
+text :  'UBIS',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5582text);	
+var rectangle5520 = new Kinetic.Rect({	
+x : 343,	
+y : 230,	
+width : 54,	
+height : 47,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle5520);	
+var rectangle5520text = new Kinetic.Text({	
+x : 343,	
+y : 230+2,	
+width : 54,	
+height : 47,	
+text :  'BlueDoc',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5520text);	
+var rectangle5519 = new Kinetic.Rect({	
+x : 219,	
+y : 230,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '#FFFFFFFF ',});	
+layer.add(rectangle5519);	
+var rectangle5519text = new Kinetic.Text({	
+x : 219,	
+y : 230+2,	
+width : 54,	
+height : 46,	
+text :  'Artus',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5519text);	
+var rectangle5494 = new Kinetic.Rect({	
+x : 219,	
+y : 281,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle5494);	
+var rectangle5494text = new Kinetic.Text({	
+x : 219,	
+y : 281+2,	
+width : 54,	
+height : 46,	
+text :  'Procman',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle5494text);	
+var rectangle100 = new Kinetic.Rect({	
+x : 146,	
+y : 295,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  2,	
+stroke : '# ',});	
+layer.add(rectangle100);	
+var rectangle100text = new Kinetic.Text({	
+x : 146,	
+y : 295+2,	
+width : 54,	
+height : 46,	
+text :  'Test DB',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle100text);	
+var rectangle99 = new Kinetic.Rect({	
+x : 78,	
+y : 234,	
+width : 54,	
+height : 46,	
+fill :  '#99CCFF ' ,	
+strokeWidth :  4,	
+stroke : '#000080 ',});	
+layer.add(rectangle99);	
+var rectangle99text = new Kinetic.Text({	
+x : 78,	
+y : 234+2,	
+width : 54,	
+height : 46,	
+text :  'SCM Part',	
+fontSize : 10 +1,	
+fontFamily : 'Arial' ,	
+fontStyle : 'bold' ,	
+fill : 'black' ,	
+align : 'center',});	
+layer.add(rectangle99text);
+
+//find have to add this 
+stage.add(layer);
