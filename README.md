@@ -10,3 +10,8 @@ The main use:
 Important:
 1) By using the kinetic javacript rectangle creation of each different context menu for each different rectangle.
 2) When a button is clicked the hide of different rectangle.
+
+
+To run:
+
+Jsfiddle has to be used to run the above project. (under construction)
