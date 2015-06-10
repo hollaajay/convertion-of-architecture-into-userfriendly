@@ -1,1 +1,67 @@
+#blue:hover,#green:hover,#Reset:hover
+			{
+			background: #00ff00;
+			background-image: -webkit-linear-gradient(top, #00ff00, #3498db);
+			background-image: -moz-linear-gradient(top, #00ff00, #3498db);
+			background-image: -ms-linear-gradient(top, #00ff00, #3498db);
+			background-image: -o-linear-gradient(top, #00ff00, #3498db);
+			background-image: linear-gradient(to bottom, #00ff00, #3498db);
+			text-decoration: none;
+			}
+		
+		
+		#blue
+			{
+			background: lightblue url(https://connect.bosch.com/files/form/anonymous/api/library/08035682-6b29-4707-937c-e023d5a6d811/document/d3ddf0ae-38a7-4f94-b5a6-b1e2455b98a4/media/Role_Filter_Symbol.png) no-repeat 5px center;
+		
+			height: 32px;
+			padding-left: 36px;
+			background-size:contain;
+			<!---webkit-border-radius: 25;
+			-moz-border-radius: 25;!-->
+			border-radius: 20px;
+			font-family: Arial;
+			color: blue;
+			font-size: 15px;
+			border: solid black 2px;
+			text-decoration: none;
+			}
+			
+		#green
+			{
+			background: lightgreen url(https://connect.bosch.com/files/form/anonymous/api/library/08035682-6b29-4707-937c-e023d5a6d811/document/d3ddf0ae-38a7-4f94-b5a6-b1e2455b98a4/media/Role_Filter_Symbol.png) no-repeat 5px center;
+			
+			background-size:contain;
+			height: 32px;
+			padding-left: 36px;
+			<!--webkit-border-radius: 20;
+			-moz-border-radius: 20; !-->
+			border-radius: 20px;
+			font-family: Arial;
+			color: blue;
+			font-size: 15px;
+			border: solid black 2px;
+			text-decoration: none;
+			}
+			
+		#Reset
+			{
+			background: orange url(https://connect.bosch.com/files/form/anonymous/api/library/08035682-6b29-4707-937c-e023d5a6d811/document/d3ddf0ae-38a7-4f94-b5a6-b1e2455b98a4/media/Role_Filter_Symbol.png) no-repeat 5px center;
+			
+			background-size:contain;
+			height: 32px;
+			padding-left: 50px;
+			<!---webkit-border-radius: 20;
+			-moz-border-radius: 20;!-->
+			border-radius: 20px;
+			font-family: Arial;
+			color: black;
+			font-size: 15px;
+			border: solid black 2px;
+			text-decoration: none;
+			}
 
+		canvas
+			{
+			position: absolute;			
+			}
